@@ -1,0 +1,150 @@
+body{
+	background-color: red;
+}
+.navigation {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	list-style: none;
+}
+.section_one{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+	margin-top: 250px;
+}
+
+.section_one_left{
+	width: 29%;
+	background-color: blue;
+	height: 800px;
+}
+
+.section_one_right{
+	width: 70%;
+	background-color: orange;
+	height: 700px;
+}
+
+.section_two{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+}
+.section_two_left{
+	width: 29%; 
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+.section_two_left_top{ 
+	height: 396px;
+	background-color: yellow;
+}
+.section_two_left_bottom{
+	height: 396px;
+	background-color: green;
+} 
+.section_two_middle{
+	width: 40%;
+	height: 800px;
+	background-color: purple;
+}
+.section_two_right{
+	width: 29%; 
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+.section_two_right_top{ 
+	height: 396px;
+	background-color: yellow;
+}
+.section_two_right_bottom{
+	height: 396px;
+	background-color: green;
+}
+.section_three{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+}
+
+.section_three_left{
+	width: 70%;
+	background-color: blue;
+	height: 800px;
+}
+
+.section_three_right{
+	width: 29%;
+	background-color: orange;
+	height: 700px;
+}
+
+.section_four{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+}
+.section_four_left{
+	width: 70%;
+	background-color: green;
+	height: 800px;
+}
+.section_four_right{
+	width: 29%; 
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	
+}
+
+.section_four_right_top{ 
+	height: 396px;
+	background-color: yellow;
+}
+.section_four_right_bottom{
+	height: 396px;
+	background-color: purple;
+}
+
+.section_five{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 250px;
+}
+.section_five_left{
+	width: 70%;
+	background-color: blue;
+	height: 800px;
+}
+.section_five_right{
+	width: 29%; 
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	
+}
+
+.section_five_right_top{ 
+	height: 396px;
+	background-color: orange;
+}
+.section_five_right_bottom{
+	height: 396px;
+	background-color: purple;
+}
